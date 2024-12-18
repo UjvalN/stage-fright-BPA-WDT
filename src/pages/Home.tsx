@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import midnightEchoes from '../images/midnight_echoes.png'
 
 export default function Home() {
   return (
@@ -29,7 +30,7 @@ export default function Home() {
           <h2 className="text-4xl font-bold text-center mb-12">Latest Release</h2>
           <div className="flex flex-col md:flex-row items-center justify-center gap-8">
             <img
-              src="/src/images/midnight_echoes.png"
+              src={midnightEchoes}
               alt="Album Cover"
               className="w-64 h-64 object-cover rounded-lg shadow-lg"
             />
