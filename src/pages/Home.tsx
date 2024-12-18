@@ -39,9 +39,11 @@ export default function Home() {
                 Our latest album featuring 12 tracks of pure rock energy.
                 Available now on all major streaming platforms.
               </p>
-              <button className="bg-purple-600 text-white px-6 py-2 rounded-lg hover:bg-purple-700 transition-colors">
-                Listen Now
-              </button>
+              <Link to="/merch">
+                <button className="bg-purple-600 text-white px-6 py-2 rounded-lg hover:bg-purple-700 transition-colors">
+                  Listen Now
+                </button>
+              </Link>
             </div>
           </div>
         </div>
