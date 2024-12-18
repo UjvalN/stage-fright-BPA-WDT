@@ -29,7 +29,7 @@ export default function Home() {
           <h2 className="text-4xl font-bold text-center mb-12">Latest Release</h2>
           <div className="flex flex-col md:flex-row items-center justify-center gap-8">
             <img
-              src="/src/pages/../images/midnight_echoes.png"
+              src="/src/images/midnight_echoes.png"
               alt="Album Cover"
               className="w-64 h-64 object-cover rounded-lg shadow-lg"
             />
