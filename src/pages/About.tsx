@@ -91,7 +91,7 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-gray-900 rounded-lg p-6">
               <img
-                src="images/midnight_echoes_extended.png"
+                src="src/images/midnight_echoes_extended.png"
                 alt="Midnight Echoes Album"
                 className="w-full h-64 object-cover rounded-lg mb-4"
               />
