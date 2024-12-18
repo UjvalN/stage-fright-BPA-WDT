@@ -1,4 +1,7 @@
 import React from 'react';
+import band_practice from '../images/band_practice.jpg';
+import midnight_echoes_extended from '../images/midnight_echoes_extended.png';
+import first_light_extended from '../images/first_light_extended.png';
 
 const bandMembers = [
   {
@@ -37,7 +40,7 @@ export default function About() {
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="md:w-1/2">
               <img
-                src="src/images/band_practice.jpg"
+                src={band_practice}
                 alt="Band performing"
                 className="rounded-lg shadow-lg"
               />
@@ -91,7 +94,7 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-gray-900 rounded-lg p-6">
               <img
-                src="src/images/midnight_echoes_extended.png"
+                src={midnight_echoes_extended}
                 alt="Midnight Echoes Album"
                 className="w-full h-64 object-cover rounded-lg mb-4"
               />
@@ -100,7 +103,7 @@ export default function About() {
             </div>
             <div className="bg-gray-900 rounded-lg p-6">
               <img
-                src="src/images/first_light_extended.png"
+                src={first_light_extended}
                 alt="First Light Album"
                 className="w-full h-64 object-cover rounded-lg mb-4"
               />

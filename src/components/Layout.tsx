@@ -4,6 +4,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { useCart } from '../contexts/CartContext';
 import Footer from './Footer';
 import Cart from './cart/Cart';
+import logo from '../images/logo_ghost_only.png';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,7 +26,7 @@ const Navigation = () => {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center space-x-2">
-            <img src="/src/images/logo_ghost_only.png" alt="logo" width="60" height="60"></img>
+            <img src={logo} alt="logo" width="60" height="60"></img>
             <span className="text-xl font-bold">Stage Fright</span>
           </Link>
 

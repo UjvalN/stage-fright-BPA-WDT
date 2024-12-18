@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import midnightEchoes from '../images/midnight_echoes.png'
+import midnightEchoes from '../images/midnight_echoes.png';
 
 export default function Home() {
   return (
