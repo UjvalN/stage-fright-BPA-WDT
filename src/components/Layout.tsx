@@ -25,7 +25,7 @@ const Navigation = () => {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center space-x-2">
-            <Music size={24} />
+            <img src="/src/images/logo_ghost_only.png" alt="logo" width="60" height="60"></img>
             <span className="text-xl font-bold">Stage Fright</span>
           </Link>
 

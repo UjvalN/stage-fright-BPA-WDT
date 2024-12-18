@@ -13,7 +13,7 @@ export default function Cart() {
   if (!state.isOpen) return null;
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 z-50">
+    <div className="fixed inset-0 bg-black bg-opacity-50 z-50 text-white">
       <div className="absolute right-0 top-0 h-full w-full max-w-md bg-gray-900 shadow-xl">
         <div className="flex flex-col h-full">
           <div className="flex items-center justify-between p-4 border-b border-gray-800">

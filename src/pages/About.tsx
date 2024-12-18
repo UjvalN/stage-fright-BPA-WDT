@@ -91,7 +91,7 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-gray-900 rounded-lg p-6">
               <img
-                src="https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
+                src="/src/images/midnight_echoes_extended.png"
                 alt="Midnight Echoes Album"
                 className="w-full h-64 object-cover rounded-lg mb-4"
               />
@@ -100,7 +100,7 @@ export default function About() {
             </div>
             <div className="bg-gray-900 rounded-lg p-6">
               <img
-                src="https://images.unsplash.com/photo-1614613534028-bdd04575be2b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
+                src="/src/images/first_light_extended.png"
                 alt="First Light Album"
                 className="w-full h-64 object-cover rounded-lg mb-4"
               />

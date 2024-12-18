@@ -17,7 +17,7 @@ export default function Footer() {
           {/* Logo and About */}
           <div className="space-y-4">
             <Link to="/" className="flex items-center space-x-2">
-              <Music size={24} className="text-purple-400" />
+              <img src="/src/images/logo_ghost_only.png" alt="logo" width="40" height="40"></img>
               <span className="text-xl font-bold">Stage Fright</span>
             </Link>
             <p className="text-gray-400">
