@@ -37,7 +37,7 @@ export default function About() {
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="md:w-1/2">
               <img
-                src="/src/images/band_practice.jpg"
+                src="src/images/band_practice.jpg"
                 alt="Band performing"
                 className="rounded-lg shadow-lg"
               />
@@ -91,7 +91,7 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-gray-900 rounded-lg p-6">
               <img
-                src="/src/images/midnight_echoes_extended.png"
+                src="src/images/midnight_echoes_extended.png"
                 alt="Midnight Echoes Album"
                 className="w-full h-64 object-cover rounded-lg mb-4"
               />
@@ -100,7 +100,7 @@ export default function About() {
             </div>
             <div className="bg-gray-900 rounded-lg p-6">
               <img
-                src="/src/images/first_light_extended.png"
+                src="src/images/first_light_extended.png"
                 alt="First Light Album"
                 className="w-full h-64 object-cover rounded-lg mb-4"
               />
