@@ -1,7 +1,7 @@
 import React from 'react';
-import band_practice from '../images/band_practice.jpg';
-import midnight_echoes_extended from '../images/midnight_echoes_extended.png';
-import first_light_extended from '../images/first_light_extended.png';
+import band_practice from '/images/band_practice.jpg';
+import midnight_echoes_extended from '/images/midnight_echoes_extended.png';
+import first_light_extended from '/images/first_light_extended.png';
 
 const bandMembers = [
   {

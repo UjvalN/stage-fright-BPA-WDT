@@ -1,7 +1,7 @@
 import React from 'react';
 import { Facebook, Twitter, Instagram, Youtube, Music } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import logo from '../images/logo_ghost_only.png';
+import logo from '/images/logo_ghost_only.png';
 
 export default function Footer() {
   const socialLinks = [
