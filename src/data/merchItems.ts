@@ -1,9 +1,11 @@
+import tee from '../../images/t-shirt_extended.png';
+
 export const merchItems = [
   {
     id: 'tee-1',
     name: 'Midnight Echoes Tour Tee',
     price: 29.99,
-    image: '/images/t-shirt_extended.png',
+    image: tee,
     category: 'Apparel',
     sizes: ['S', 'M', 'L', 'XL', 'XXL']
   },
