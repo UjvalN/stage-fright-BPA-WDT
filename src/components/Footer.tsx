@@ -25,14 +25,16 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Quick Links */}
+          {/*BPA Info*/}
           <div>
-            <h3 className="text-lg font-bold mb-4">Quick Links</h3>
-            <ul className="space-y-2">
-              <li><Link to="/tour" className="text-gray-400 hover:text-purple-400">Tour Dates</Link></li>
-              <li><Link to="/merch" className="text-gray-400 hover:text-purple-400">Merchandise</Link></li>
-              <li><Link to="/about" className="text-gray-400 hover:text-purple-400">About Us</Link></li>
-              <li><Link to="/contact" className="text-gray-400 hover:text-purple-400">Contact</Link></li>
+            <h3 className="text-lg font-bold mb-4">BPA Information</h3>
+            <ul className="space-y-2 text-gray-400">
+              <li>Chapter Name: Liberty High School BPA (Chapter 02-0891)</li>
+              <li>Team Member Names: Ujval, Toyeshh, Kailash</li>
+              <li>Theme: Stage Fright Band</li>
+              <li>School: Liberty High School</li>
+              <li>City & State: Frisco, TX</li>
+              <li>Year: 2024</li>
             </ul>
           </div>
 

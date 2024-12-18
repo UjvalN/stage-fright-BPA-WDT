@@ -37,7 +37,7 @@ export default function About() {
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="md:w-1/2">
               <img
-                src="https://images.unsplash.com/photo-1517147177326-b37599372b73?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+                src="/src/images/band_practice.jpg"
                 alt="Band performing"
                 className="rounded-lg shadow-lg"
               />
