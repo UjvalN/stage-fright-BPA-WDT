@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 
 export default function Footer() {
   const socialLinks = [
-    { icon: Facebook, href: 'https://facebook.com/stagefright' },
-    { icon: Twitter, href: 'https://twitter.com/stagefright' },
-    { icon: Instagram, href: 'https://instagram.com/stagefright' },
-    { icon: Youtube, href: 'https://youtube.com/stagefright' }
+    { icon: Facebook, href: 'https://facebook.com' },
+    { icon: Twitter, href: 'https://twitter.com' },
+    { icon: Instagram, href: 'https://instagram.com' },
+    { icon: Youtube, href: 'https://youtube.com' }
   ];
 
   return (
